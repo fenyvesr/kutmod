@@ -1,4 +1,5 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}The project summary}{2}
 \contentsline {section}{\numberline {2}List of Beneficiaries}{4}
-\contentsline {section}{\numberline {3}}{4}
+\contentsline {section}{\numberline {3}The budget brakedown\FN@sf@gobble@opt {All costs are in EUR}}{4}
+\contentsline {section}{\numberline {4}}{5}
