@@ -41,5 +41,5 @@
 \contentsline {subsubsection}{\numberline {6.9.1}Objectives}{15}
 \contentsline {subsubsection}{\numberline {6.9.2}Description of work}{15}
 \contentsline {subsubsection}{\numberline {6.9.3}Deliverables}{15}
-\contentsline {section}{\numberline {7}Milestones}{16}
-\contentsline {section}{\numberline {8}}{16}
+\contentsline {section}{\numberline {7}Milestones}{17}
+\contentsline {section}{\numberline {8}}{17}
