@@ -4,6 +4,9 @@
 \usepackage[utf8]{inputenc}  % input kódolós
 \usepackage[english]{babel}   % nyelv
 
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
 %opening
 \title{Description of Work}
 \author{
@@ -14,29 +17,22 @@
 	\texttt{fenyvesr@gmail.com}
 }
 
+\input{acronyms.tex}
+
 \begin{document}
 
 \maketitle
 
 \newpage
 
-\begin{titlepage}
-	\vspace*{9em}{\centering\Huge
-		SEVENTH FRAMEWORK PROGRAMME\par}
-	\vspace{1em}{\centering\LARGE
-		INFORMATION AND COMMUNICATION TECHNOLOGIES (ICTs)\par}
-	\vspace{1em}
-	\vspace{1em}{\centering\Large
-		[THEME TITLE]\par}
-	
-\end{titlepage}
+\input{titlepage.tex}
 
-\begin{abstract}
-Software Development is usually based on requirements. The larger the developed system, the harder it is to analyze and verify it. This article shows how it can be done automatically. 
-Our contribution consists of two parts: (I) an artificial neural network, with a set of successful formal descriptions received from human-readable version of requirements and their formal description to learn the models of correctly implemented requirements; (II) a checker, which analyzes requirements’ formal description and semantics, obtained by semantically analyzing the source code. 
-The proposed solution checks if written code meets the requirements or not. In the end it makes a suggestion how to fix a code.
-\end{abstract}
+\input{abstract.tex}
+
+\printglossaries
 
 \section{}
+
+
 
 \end{document}
