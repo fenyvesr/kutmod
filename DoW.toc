@@ -2,4 +2,11 @@
 \contentsline {section}{\numberline {1}The project summary}{2}
 \contentsline {section}{\numberline {2}List of Beneficiaries}{4}
 \contentsline {section}{\numberline {3}The budget brakedown\FN@sf@gobble@opt {All costs are in EUR}}{4}
-\contentsline {section}{\numberline {4}}{5}
+\contentsline {section}{\numberline {4}List of Work Packages}{5}
+\contentsline {section}{\numberline {5}List of Deliverables}{6}
+\contentsline {section}{\numberline {6}Work Package Descriptions}{7}
+\contentsline {subsection}{\numberline {6.1}Work Package 1}{7}
+\contentsline {subsubsection}{\numberline {6.1.1}Objectives}{7}
+\contentsline {subsubsection}{\numberline {6.1.2}Description of work}{7}
+\contentsline {subsubsection}{\numberline {6.1.3}Deliverables}{7}
+\contentsline {section}{\numberline {7}}{7}
