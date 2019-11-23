@@ -7,6 +7,8 @@
 \usepackage[acronym]{glossaries}
 \makeglossaries
 
+\usepackage{graphicx} % Képek miatt
+
 %opening
 \title{Description of Work}
 \author{
@@ -27,7 +29,15 @@
 
 \input{titlepage.tex}
 
-\input{abstract.tex}
+\tableofcontents
+
+\newpage
+
+\input{project_summary.tex}
+
+\newpage
+
+\input{list_of_beneficiaries.tex}
 
 \printglossaries
 
