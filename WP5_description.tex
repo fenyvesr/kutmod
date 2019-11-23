@@ -14,7 +14,26 @@
 \end{table}
 
 \subsubsection{Objectives}
-
+\begin{itemize}
+	\item O5.1 Check Formal Requirements: The Consistency Check feature should be able to decide whether the generated formal requirements are free of contradictions and ambiguities.
+	\item O5.2 Feasibility: The Consistency Check feature should be able to decide whether the generated formal requirements are feasible so a solution which fulfills the formal requirements can be found. 
+\end{itemize}
 \subsubsection{Description of work}
+\begin{itemize}
+	\item O5.1 Check Formal Requirements:
+	\begin{itemize}
+		\item T5.1.1: A generic approach should be applied to decide whether the formal requirements are free of contradictions. Formal proof should be found in case the requirements are contradictory. The \gls{UCA} should create the formal environment for this feature.
+		\item T5.1.2: A generic approach should be applied to decide whether the formal requirements are free of ambiguities. Formal proof should be derived to pinpoint the ambiguities and maybe suggest a refinement to fix the ambiguity. The \gls{ELTE} should create the formal environment for this feature.
+		\item T5.1.3: The ELTE-Soft should validate the feature based on their expertise and historical data. 
+	\end{itemize}
+	\item O5.2 Feasibility:
+	\begin{itemize}
+		\item T5.2.1: The generated formal requirements should be checked whether a solution can be found which fulfills the formal requirements. A generic approach should be applied to show if no solution is feasible and formally prove this condition.
+		\item T5.2.2: The ELTE-Soft should validate the feature based on their expertise and historical data. 
+	\end{itemize}
+\end{itemize}
 
 \subsubsection{Deliverables}
+\begin{itemize}
+	\item D5.1 Consistency Check Prototype:  The final prototype should be delivered at the end of the 18th months so until M3. It has to be able to run without any crash and fulfill all functionalities. The formal proof environments should be assessed by an independent expert committee. 
+\end{itemize}
