@@ -14,7 +14,27 @@
 \end{table}
 
 \subsubsection{Objectives}
+\begin{itemize}
+	\item O7.1 Code Fix suggestion: In case of an invalid implementation if it is possible the final feature should suggest feasible fixes for the source code. In case of a huge difference between the formal requirements and the formal semantics of the source code the feature should not suggest any fix.
+	\item O7.2 Multiple suggestions: In case of an invalid implementation if it is possible the final feature should suggest feasible fixes for the source code. The goodness of these suggestions should be measured with the difference between the formal requirements and the formal semantics of the source code.  
+\end{itemize}
 
 \subsubsection{Description of work}
 
+\begin{itemize}
+	\item O7.1 Code Fix suggestion:
+	\begin{itemize}
+		\item T7.1.1: \gls{UCA} should be responsible to implement the functionality which can suggest fixes for the incorrect implementation. These suggestion should be all feasible solutions for the generated formal requirements.
+		\item T7.1.2: The suggestions should be sorted according to their goodness factor. The suggestions should be able to be applicable with the least amount of effort from the user side.
+	\end{itemize}
+	\item O7.2 Multiple suggestions:
+	\begin{itemize}
+		\item T7.2.1: \gls{UNITN} should be responsible for evaluating the difference between the formal requirements and the formal semantics of the source code.
+		\item T7.2.2: \gls{ELTE} should review the results and consult with \gls{UNITN}. In case of an agreement the feature should perform correctly.   
+	\end{itemize}  
+\end{itemize}
+
 \subsubsection{Deliverables}
+\begin{itemize}
+	\item D7.1 Code Fix Suggester Prototype: The final prototype should be delivered at the end of the 36th months so until M6. It has to be able to run without any crash and fulfill all functionalities. The final results of the systems should be heavily tested by the co-operative companies.
+\end{itemize}
