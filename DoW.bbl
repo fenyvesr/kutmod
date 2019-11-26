@@ -1,0 +1,60 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ahmed}
+Usman Ahmed.
+\newblock A review on knowledge management in requirements engineering.
+\newblock pages 1--5, 02 2018.
+
+\bibitem{Besrour}
+Souhaib Besrour, Lukman Rahim, and P.~Dominic.
+\newblock A quantitative study to identify critical requirement engineering
+  challenges in the context of small and medium software enterprise.
+\newblock pages 606--610, 08 2016.
+
+\bibitem{Bodin}
+Martin Bodin, Arthur Chargueraud, Daniele Filaretti, Philippa Gardner, Sergio
+  Maffeis, Daiva Naudziuniene, Alan Schmitt, and Gareth Smith.
+\newblock A trusted mechanised javascript specification.
+\newblock volume~49, pages 87--100, 01 2014.
+
+\bibitem{Fanmuy}
+Gauthier Fanmuy, Anabel Fraga, and Juan Llorens.
+\newblock Requirements verification in the industry.
+\newblock pages 145--160, 01 2011.
+
+\bibitem{Ferrari}
+Alessio Ferrari, Giuseppe Lipari, Stefania Gnesi, and Giorgio Spagnolo.
+\newblock Pragmatic ambiguity detection in natural language requirements.
+\newblock 08 2014.
+
+\bibitem{Kamsties}
+Erik Kamsties.
+\newblock {\em Engineering and Managing Software Requirements}, pages 245--266.
+\newblock 01 2005.
+
+\bibitem{Nazir}
+Farhana Nazir, Wasi Haider, Muhammad Anwar, and Muazzam Khattak.
+\newblock The applications of natural language processing (nlp) for software
+  requirement engineering - a systematic literature review.
+\newblock pages 485--493, 03 2017.
+
+\bibitem{Politz}
+Joe~Gibbs Politz, Spiridon~Aristides Eliopoulos, Arjun Guha, and Shriram
+  Krishnamurthi.
+\newblock Adsafety: Type-based verification of javascript sandboxing.
+\newblock {\em CoRR}, abs/1506.07813, 2015.
+
+\bibitem{Ryan}
+K.~{Ryan}.
+\newblock The role of natural language in requirements engineering.
+\newblock In {\em [1993] Proceedings of the IEEE International Symposium on
+  Requirements Engineering}, pages 240--242, Jan 1993.
+
+\bibitem{Wang}
+Yinglin Wang.
+\newblock Automatic semantic analysis of software requirements through machine
+  learning and ontology approach.
+\newblock {\em Journal of Shanghai Jiaotong University (Science)}, 21:692--701,
+  12 2016.
+
+\end{thebibliography}
