@@ -14,6 +14,10 @@
  % in the document preamble
 \usepackage[stable]{footmisc}
 
+\usepackage{pdfpages}
+
+\usepackage{lscape}
+
 %opening
 \title{Description of Work}
 \author{
@@ -86,6 +90,10 @@
 \newpage
 
 \input{milestones.tex}
+
+\begin{landscape}
+	\includepdf[pages=-,pagecommand={},width=\textwidth, angle=90]{ACROSS.pdf}
+\end{landscape}
 
 \newpage
 
