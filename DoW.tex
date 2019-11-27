@@ -14,10 +14,6 @@
  % in the document preamble
 \usepackage[stable]{footmisc}
 
-\usepackage{pdfpages}
-
-\usepackage{lscape}
-
 %opening
 \title{Description of Work}
 \author{
@@ -87,13 +83,17 @@
 \newpage
 
 \input{WP9_description.tex}
-\newpage
+
+\newpage\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth, height=1\textheight]{Gantt_chart}
+	\label{fig:ganttchart}
+\end{figure}
+
 
 \input{milestones.tex}
 
-\begin{landscape}
-	\includepdf[pages=-,pagecommand={},width=\textwidth, angle=90]{ACROSS.pdf}
-\end{landscape}
+
 
 \newpage
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  26 NOV 2019 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.12)  27 NOV 2019 06:43
 entering extended mode
 **./DoW.tex
 (DoW.tex
@@ -414,82 +414,21 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
-)
-(C:\MyPrograms\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
-
-(C:\MyPrograms\MiKTeX\tex\latex\tools\calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count136
-\calc@Bcount=\count137
-\calc@Adimen=\dimen150
-\calc@Bdimen=\dimen151
-\calc@Askip=\skip59
-\calc@Bskip=\skip60
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count138
-\calc@Cskip=\skip61
-)
-(C:\MyPrograms\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-
-(C:\MyPrograms\MiKTeX\tex\generic\oberdiek\atbegshi.sty
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-(C:\MyPrograms\MiKTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(C:\MyPrograms\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-(C:\MyPrograms\MiKTeX\tex\latex\xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\MyPrograms\MiKTeX\tex\latex\graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-))
-\AM@pagewidth=\dimen152
-\AM@pageheight=\dimen153
-
-(C:\MyPrograms\MiKTeX\tex\latex\pdfpages\pppdftex.def
-File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box35
-\AM@global@opts=\toks35
-\AM@toc@title=\toks36
-\c@AM@survey=\count139
-\AM@templatesizebox=\box36
-)
-(C:\MyPrograms\MiKTeX\tex\latex\graphics\lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 ) (acronyms.tex) (DoW.aux)
 \openout1 = `DoW.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -530,26 +469,32 @@ h.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) (C:\MyPrograms\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
-\scratchdimen=\dimen154
-\scratchbox=\box37
-\nofMPsegments=\count141
-\nofMParguments=\count142
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count143
-\MPscratchDim=\dimen155
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count136
+\scratchdimen=\dimen150
+\scratchbox=\box35
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen151
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks36
 ) (C:\MyPrograms\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
+(C:\MyPrograms\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 (C:\MyPrograms\MiKTeX\tex\latex\oberdiek\grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (C:\MyPrograms\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+
+(C:\MyPrograms\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
 (C:\MyPrograms\MiKTeX\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -583,13 +528,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box38
-
-(C:\MyPrograms\MiKTeX\tex\latex\oberdiek\pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 35.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
 
 (C:\MyPrograms\MiKTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -637,139 +576,45 @@ Overfull \hbox (2.155pt too wide) in paragraph at lines 28--29
 an-tic An-a-lyzer Lessons Learned
  []
 
-[15]) [16] (WP9_description.tex [17]) [18] (milestones.tex) [19]
-<ACROSS.pdf, id=83, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf>
-Package pdftex.def Info: ACROSS.pdf  used on input line 95.
-(pdftex.def)             Requested size: 820.80452pt x 578.21883pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf>
-Package pdftex.def Info: ACROSS.pdf  used on input line 95.
-(pdftex.def)             Requested size: 820.80452pt x 578.21883pt.
-<ACROSS.pdf, id=86, page=1, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 1>
-Package pdftex.def Info: ACROSS.pdf , page1 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 1>
-Package pdftex.def Info: ACROSS.pdf , page1 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 1>
-Package pdftex.def Info: ACROSS.pdf , page1 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 1>
-Package pdftex.def Info: ACROSS.pdf , page1 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 1>
-Package pdftex.def Info: ACROSS.pdf , page1 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [20
+[15]) [16] (WP9_description.tex [17]) [18]
+<Gantt_chart.png, id=80, 1317.42188pt x 1036.62282pt>
+File: Gantt_chart.png Graphic file (type png)
+<use Gantt_chart.png>
+Package pdftex.def Info: Gantt_chart.png  used on input line 89.
+(pdftex.def)             Requested size: 455.23473pt x 702.8221pt.
 
- <./ACROSS.pdf>]
-<ACROSS.pdf, id=275, page=2, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 2>
-Package pdftex.def Info: ACROSS.pdf , page2 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 2>
-Package pdftex.def Info: ACROSS.pdf , page2 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 2>
-Package pdftex.def Info: ACROSS.pdf , page2 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [21 <./ACROSS.pdf>]
-<ACROSS.pdf, id=421, page=3, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 3>
-Package pdftex.def Info: ACROSS.pdf , page3 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 3>
-Package pdftex.def Info: ACROSS.pdf , page3 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 3>
-Package pdftex.def Info: ACROSS.pdf , page3 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [22 <./ACROSS.pdf>]
-<ACROSS.pdf, id=551, page=4, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 4>
-Package pdftex.def Info: ACROSS.pdf , page4 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 4>
-Package pdftex.def Info: ACROSS.pdf , page4 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 4>
-Package pdftex.def Info: ACROSS.pdf , page4 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [23 <./ACROSS.pdf>]
-<ACROSS.pdf, id=782, page=5, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 5>
-Package pdftex.def Info: ACROSS.pdf , page5 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 5>
-Package pdftex.def Info: ACROSS.pdf , page5 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 5>
-Package pdftex.def Info: ACROSS.pdf , page5 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [24 <./ACROSS.pdf>]
-<ACROSS.pdf, id=1032, page=6, 820.80652pt x 578.22023pt>
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 6>
-Package pdftex.def Info: ACROSS.pdf , page6 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 6>
-Package pdftex.def Info: ACROSS.pdf , page6 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
-File: ACROSS.pdf Graphic file (type pdf)
-<use ACROSS.pdf, page 6>
-Package pdftex.def Info: ACROSS.pdf , page6 used on input line 95.
-(pdftex.def)             Requested size: 455.24411pt x 320.70428pt.
- [25 <./ACROSS.pdf>] (DoW.gls) (DoW.acr) [26
 
-] (DoW.aux) ) 
+LaTeX Warning: Float too large for page by 13.63902pt on input line 91.
+
+(milestones.tex) [19] [20 <./Gantt_chart.png>] (DoW.gls) (DoW.acr) [21]
+(DoW.aux) ) 
 Here is how much of TeX's memory you used:
- 11929 strings out of 492973
- 196060 string characters out of 3139040
- 377228 words of memory out of 3000000
- 15475 multiletter control sequences out of 15000+200000
+ 10663 strings out of 492973
+ 177708 string characters out of 3139040
+ 351792 words of memory out of 3000000
+ 14240 multiletter control sequences out of 15000+200000
  21166 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,20n,51p,2785b,603s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecrm0900.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\fenyv\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\fenyv\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\fenyv
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\U
-sers\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728
-.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx1200.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm2488.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\fenyv\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\fenyv\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/MyPrograms/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on DoW.pdf (28 pages, 951533 bytes).
+ 45i,9n,39p,2785b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrm0900.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\fenyv\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\fenyv\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Use
+rs\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.p
+k> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1200.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm2488.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\fenyv\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\fenyv\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\fenyv\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/MyPrograms/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on DoW.pdf (23 pages, 333653 bytes).
 PDF statistics:
- 1753 PDF objects out of 2073 (max. 8388607)
+ 541 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
