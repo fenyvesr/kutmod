@@ -26,6 +26,8 @@
 
 \input{Acronyms.tex}
 
+\input{Glossary.tex}
+
 \begin{document}
 
 \maketitle
@@ -43,7 +45,10 @@
 \input{Discussion.tex}
 
 
-\printglossaries
+\newpage
+\printglossary[type=\acronymtype]
+\newpage
+\printglossary[type=main]
 
 
 \end{document}
