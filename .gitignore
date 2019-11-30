@@ -11,6 +11,6 @@
 *.gls
 *.ist
 *.toc
-/DoW/DoW.pdf
-/Article/Article.pdf
+**/DoW.pdf
+**/Article.pdf
 
