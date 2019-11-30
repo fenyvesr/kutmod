@@ -28,13 +28,13 @@
 	
 	Several efforts to give C a formal semantics have been made, most notably by Charles McEwen Ellison (III.). His executable formal semantics of the C language successfully passes  99.2\% of 776 test programs \cite{Ellison:2012:EFS:2103621.2103719}. Having to define two or more different semantics for a real-life language, together with proofs of equivalence, is a huge burden in itself, not to mention that these all need to be maintained as the language evolves.
 	
-	Currently code validation falls into two categories: testing and formal verification. Formal verification mainly includes two methods: theorem proving and model checking.
+	Nowadays code validation divided into two categories: code testing and formal verification. Formal verification itself includes two methods: model checking method and theorem proving method.
 	
-	Theorem Proving requires considerable expertise to guide and assist the verification process, and can not generate counter-examples that are useful for debugging when the verification fails.
+	Model Checking \cite{Clarke:2000:MC:332656} is an exhaustive and automatic formal verification technique for a given finite-state model of a system, where the correctness properties are checked at enumerated states. Furthermore, if it fails, then the model checking yields counter. Also, the model checking method has proven its effectiveness in detective hardware design errors.
 	
-	Model Checking \cite{Clarke:2000:MC:332656} is an automatic formal verification technique for a finite state system, where all the states of the system are exhaustively enumerated and the correctness condition checked at each state. Moreover, model checking yields extremely useful counter examples if it fails. It has proven effective in detecting errors in hardware designs.
+	Theorem Proving requires extensive ability to assist the verification process. Theorem Proving cannot generate counter-examples which could be useful for debugging in cases when the verification has failed.
 	
-	Software model checking could produce major enhancements in software reliability and robustness. However, the state space of software programs is typically so huge that they cannot be directly model checked with conventional model checking methods. Fortunately, applying mathematically abstraction methods might extract a reduced model from a program which makes model checking feasible.
+	Despite software model checking could produce huge improvements in software quality and reliability, the state space of software programs is usually that huge that they cannot be model checked with appropriate model checking methods. By employing mathematically abstraction methods fortunately might extract a condensed model from a program which makes model checking achievable.
 	
 	Our goal is to tackle multiple problems listed above. Design and train an \gls{NLP} for reliably analyzing the requirements and to verify the semantics of the C source code against the given requirements.
 	
