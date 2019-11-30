@@ -14,6 +14,14 @@
  % in the document preamble
 \usepackage[stable]{footmisc}
 
+\usepackage{multicol}
+
+% Keywords command
+\providecommand{\keywords}[1] {\small\textbf{\textit{Keywords---}} #1}
+
+\input{Acronyms.tex}
+\input{Glossary.tex}
+
 %opening
 \title{Automatic Code Verification by Formal Analysis}
 \author{
@@ -24,17 +32,17 @@
 	\texttt{fenyvesr@gmail.com}
 }
 
-\input{Acronyms.tex}
-
-\input{Glossary.tex}
-
 \begin{document}
 
 \maketitle
 
+\input{Abstract.tex}
+
 \newpage
 
 \tableofcontents
+
+\newpage
 
 \input{Introduction.tex}
 
