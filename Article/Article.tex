@@ -17,7 +17,7 @@
 \usepackage{multicol}
 
 % Keywords command
-\providecommand{\keywords}[1] {\small\textbf{\textit{Keywords---}} #1}
+\providecommand{\keywords}[1] {\small\textbf{Categories and Subject Descriptors:} #1}
 
 \input{Acronyms.tex}
 \input{Glossary.tex}
@@ -52,6 +52,9 @@
 
 \input{Discussion.tex}
 
+\newpage
+\bibliography{mybib}{}
+\bibliographystyle{plain}
 
 \newpage
 \printglossary[type=\acronymtype]
