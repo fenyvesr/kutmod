@@ -1,0 +1,49 @@
+\documentclass[11 pt,a4paper,english]{article}
+\usepackage[margin=2.5cm]{geometry} 
+\usepackage[T1]{fontenc}     % belső kódrendszer beállítása
+\usepackage[utf8]{inputenc}  % input kódolós
+\usepackage[english]{babel}   % nyelv
+
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\usepackage{graphicx} % Képek miatt
+
+\usepackage{adjustbox} % Táblázatokra
+
+ % in the document preamble
+\usepackage[stable]{footmisc}
+
+%opening
+\title{Automatic Code Verification by Formal Analysis}
+\author{
+	Szilvási, Krisztián\\
+	\texttt{krisztian.szilvasi.3@gmail.com}
+	\and
+	Fenyvesi, Róbert\\
+	\texttt{fenyvesr@gmail.com}
+}
+
+\input{Acronyms.tex}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\input{Introduction.tex}
+
+\input{Methods.tex}
+
+\input{Results.tex}
+
+\input{Discussion.tex}
+
+
+\printglossaries
+
+
+\end{document}
