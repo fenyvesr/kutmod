@@ -93,9 +93,26 @@
 		[
 		\vspace{6 mm}
 		\subsection{Consistency Check}
-		Even though diverse techniques for
-		requirements analysis and model derivation have been developed, problems still remain in this process, mainly related with the ambiguity, incompleteness and inconsistency of the documented requirements. Documenting high-quality software requirements that efficiently support the follow-up software analysis and design remains a classical challenge to the requirements engineering research community. ]
-		Temp.
+		Even though diverse techniques for requirements analysis and model derivation have been developed, problems still remain in this process, mainly related with the ambiguity, incompleteness and inconsistency of the documented requirements. Documenting high-quality software requirements \cite{Ieee1998} that efficiently support the follow-up software analysis and design remains a classical challenge to the requirements engineering research community. ]
+		
+		In a current state-of-the-practice there exist tools that allow formalization of software requirements in a semi-automatic way. There
+		are also tools for checking the consistency of a given set of formalized requirements. However, there is a very limited support for
+		\gls{MIS} identification, i.e., the identification of the sources of the inconsistency of an inconsistent set of requirements in the domain
+		of temporal logics. \cite{Bendik:2017:CCR:3092703.3098239} focuses on this gap and in particular, it aims to address the following research questions:
+		\begin{itemize}
+			\item What are the differences between temporal logics and logics for which efficient \gls{MIS} enumeration algorithms already
+			exist, and what techniques used in the latter setting can be
+			applied also in the former one?
+			\item Are there some domain specific properties of temporal
+			logics, e.g., negation normal form of linear temporal logic formulas, that 	can be exploited by a singe \gls{MIS} extraction algorithms?
+			\item Which consistency checking approaches are the most suitable to be employed by \gls{MIS} enumeration algorithms?
+		\end{itemize}
+		 
+		The main contributions of the research direction, both those that
+		have been already achieved and those that are expected, are the
+		following. \cite{Bendik:2017:CCR:3092703.3098239} provides novel algorithms for online \gls{MIS} enumeration which are applicable to any type of input logic. These algorithms are especially suitable for temporal logics, as they tend to minimize the number of performed
+		consistency checks during their execution which is the
+		most relevant criterion in the case of temporal logics domain.
 	\end{multicols*}
 \end{minipage}
 
