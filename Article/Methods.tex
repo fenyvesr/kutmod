@@ -24,7 +24,7 @@
 		\end{itemize}
 		Identification of all these \gls{POS} makes the task of \gls{NLP} simpler.
 		
-		Following Fillmore’s idea of defining a universal set of cases and Nan Niu’s variation structure, we introduce a set of extended dimensions for conceptualizing the functional variability structure. An \gls{EFRF} is composed by 10 different semantic cases. Thus, we consider the following variation dimensions for an \gls{EFRF}.
+		Following Fillmore’s idea of defining a universal set of cases and Nan Niu’s variation structure, Wang et al. introduce a set of extended dimensions for conceptualizing the functional variability structure\cite{5381217}. An \gls{EFRF} is composed by 10 different semantic cases. Thus, we consider the following variation dimensions for an \gls{EFRF}.
 		\begin{itemize}
 			\item Agentive defines the agent whose activities will occur in \gls{EFRF}’s affairs. For example, $\{\mbox{student}\}_{Agentive}$
 			“do homework”.
@@ -55,12 +55,22 @@
 		of the \gls{EFRF}. The systematical and clear definition of these
 		variable points can help the effectiveness of software product line's functional variability modeling. 
 		
-		\begin{minipage}{\linewidth}
+		\begin{minipage}{0.9\linewidth}
 			\centering
-			\includegraphics[width=\linewidth]{Architecture.png}
-			\caption{Architecture}
-			\label{fig:cc}
+			\begin{figure}[H]
+				\includegraphics[width=\linewidth]{Architecture.png}
+				\caption{Architecture}
+				\label{fig:cc}
+			\end{figure}
 		\end{minipage}
+		
+		First the NLP Parser is the Stanford Parser \cite{stanfordParser} as the NLP parser. It can generate dependency trees to express the
+		grammatical relations in sentences. The grammatical relations are arranged in a hierarchy, rooted with the most generic relation named “dependent”. Altogether, the hierarchy
+		contains 48 grammatical relations. The whole hierarchy of
+		the grammatical relations is given in \cite{Marneffe}.
+		The second step is the Extractor, where the grammatical relations are converted into \gls{EFRF}s by converting rules which are introduce by \cite{5381217}. In this step, \gls{EFRF}s are merged which express the
+		same functional requirements. If two \gls{EFRF}s describe the same
+		activity, then they will be merged by combining their cases. 
 		
 	\end{multicols*}
 
