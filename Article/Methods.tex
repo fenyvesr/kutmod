@@ -33,8 +33,22 @@
 		[
 		\vspace{6 mm}
 		\subsection{Semantic Analyzer}
-		Temp]
-		Temp.
+		Despite provides construct that to machine instructions, it provides enough abstraction above \gls{asm} for developers to finish their work independently of platform  on which their C program runs.		C provides just enough abstraction above assembly language for
+		programmers to get their work done without having to worry about
+		the details of the machines on which the programs run. Despite
+		this abstraction, C is also known for the ease in which it allows
+		programmers to write buggy programs. With no runtime checks
+		and little static checking, in C the programmer is to be trusted
+		entirely. Despite the abstraction, the language is still low-level
+		enough that programmers can take advantage of assumptions about
+		the underlying architecture. Trust in the programmer and the ability
+		to write non-portable code are actually two of the design principles
+		under which the C standard was written. These ideas often work
+		in concert to yield intricate, platform-dependent bugs. The potential
+		subtlety of C bugs makes it an excellent candidate for formalization,
+		as subtle bugs can often be caught only by more rigorous means.]
+		In this paper, we present a formal semantics of MISRA-C that can be used
+		for finding bugs, since it has just enough restriction to present fully proved formal semantic. 
 	\end{multicols*}
 \end{minipage}
 
