@@ -1,8 +1,19 @@
 \section{Discussion}
 \begin{minipage}{\linewidth}
 	\begin{multicols*}{2}
-		Our work has a number of limitations that we plan to conquer in future. To achieve higher recall in cases extraction and to adopt the extraction of compound sentences, we will use statistical and machine learning method to complement rule-based method to make it more flexible. 
+		Our work has a number of limitations that we plan to conquer in future. As it was mentioned in part 2.1, in this project we only focused on SRS requirement document which follows the IEEE-STD-830 standard in a textual form \cite{kutmod}.
+		To achieve higher recall in cases extraction and to adopt the extraction of compound sentences, we will use statistical and machine learning method to complement rule-based method to make it more flexible. 
 		
 		In future work, we would like to analyze the computational complexity of using the MI Shapley Inconsistency Value, develop algorithms and implementations (possibly based on approximation techniques), and undertake case studies of applications of this value.
+		
+		On the other hand, our solution works only with semantic analysis of C language, what can be extended with many other languages, if their semantic analysis could be achieved. Fortunately, formal semantic of other popular languages or their subsets is done already. Denis Bogdanas in their dissertation presents a "K-Java: A Complete Semantics of Java" \cite{10.1145/2775051.2676982}; "An executable operational semantics for Python" is presented by Gideon Joachim Smeding in their master thesis \cite{phdthesis}. 
+		
+		An avenue to future work is extending system with languages, mentioned above, to make a whole system less language-oriented. Nevertheless, formal semantics for more complete subset of used languages can be done (there is no such thing as a "complete" semantics of a large language like C or Java, because it is always possible to miss a feature or, worse, an interaction of features).
+		
+		Finally, our work opens opens many new ideas of researches. For now we can see various new directions of research:
+		\begin{itemize}
+			\item One can create a formal semantic for language they would like to use with our system. For example, we would very much like to see how well our interfaces are defined and how easily one can integrate their formal analysis in our system.
+			\item As for programming languages, researches can be done on SRS analysis part as well. For example, creation of \gls{NLP} for non-English requirements (German language is very popular and usable in automotive and robotics requirements). Or creation of new functional requirement frameworks to ones need.
+		\end{itemize} 
 	\end{multicols*}
 \end{minipage}
