@@ -4,6 +4,13 @@
 \usepackage[utf8]{inputenc}  % input kódolós
 \usepackage[english]{babel}   % nyelv
 
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+
 %opening
 \title{Review of "Safe primes are not so safe"}
 \author{
@@ -20,5 +27,36 @@
 
 \newpage
 
+\section{Introduction}
+The reviewed article \cite{safeprimes} presents a new mathematical model for factorizing RSA keys which were generated using at least one safe prime. 
+The authors examined the secureness of RSA encription by collecting and selecting the largest primes classes which are to be chosen to generate safe RSA keys. 
+This study also proposes an effective implementation, and shows that authors were able to efficiently break twice as much keys in the same amount of time as state-of-the-art algorithms. 
+
+
+\section{Merits}
+The main finding of this study, that authors' alghoritm is more time-efficient than the best previously known algorithms. Acording to the authors, their research showe that it can factorize more than 4\% of the tested RSA keys, which is more than twice as much as other solutions. 
+Despite that data encryption is not safe anymore with significant amount of keys, since with given alghoritm the data can be decrypted, authors says that it should not be used for encripting. 
+The article is generally clear, although sections (especially in the discussion) would benefit from rephrasing for clarity and brevity.
+
+
+\section{Critique}
+The research on which this manuscript is based has intrinsically importance and once the
+experimental design and analysis are updated, some interesting findings may be gleaned from the
+data. Given the under-researched geographic area in which this work is based from, these findings
+will then undoubtedly have management and conservation merit. 
+
+
+\section{Discussion}
+Overall, the research is certainly very promising and shows an effectiove implementation, not based on previously published studies, but on wide range of uses of RSA alghoritms \cite{10.1145/359340.359342}.
+Therefore, the article interest resides mainly on the new questions addressed and the new methodology presented. The proposed new mathematical model seems efficient. Despite authors says that we should not use significant amount of keys, we suggest additional researches and reanalysis may shown that they are still valid and may be used.
+Finally, we found this research is interesting and encourage the authors to further development.
+
+
+
+
+\newpage
+\bibliography{mybib}{}
+\bibliographystyle{plain}
 
 \end{document}
+
