@@ -29,21 +29,21 @@
 
 \section{Introduction}
 The reviewed article \cite{safeprimes} presents a new mathematical model for factorizing RSA keys which were generated using at least one safe prime. 
-The authors examined the secureness of RSA encription by collecting and selecting the largest primes classes which are to be chosen to generate safe RSA keys. 
+The authors examined the security of RSA encryption by collecting and selecting the largest primes classes which are to be chosen to generate safe RSA keys. 
 This study also proposes an effective implementation, and shows that authors were able to efficiently break twice as much keys in the same amount of time as state-of-the-art algorithms. 
 
 
 \section{Merits}
-The main finding of this study, that authors' alghoritm is more time-efficient than the best previously known algorithms. Acording to the authors, their research showe that it can factorize more than 4\% of the tested RSA keys, which is more than twice as much as other solutions. 
-Despite that data encryption is not safe anymore with significant amount of keys, since with given alghoritm the data can be decrypted, authors says that it should not be used for encripting. 
+The main finding of this study, that authors' algorithm is more time-efficient than the best previously known algorithms. According to the authors, their research shows that it can factorize more than 4\% of the tested RSA keys, which is more than twice as much as other solutions. 
+Despite that data encryption is not safe anymore with significant amount of keys, since with given algorithm the data can be decrypted, authors says that it should not be used for encrypting. 
 The article is generally clear, although sections (especially in the discussion) would benefit from rephrasing for clarity and brevity.
 
 
 \section{Critique}
 
-I have concerns regarding the definition of prime classes determined by expression (4). The variable $m$ is not considered in taking the limit of $f(x)$ and the variable $x$ is not defined or mentioned at all.
+We have concerns regarding the definition of prime classes determined by expression (4). The variable $m$ is not considered in taking the limit of $f(x)$ and the variable $x$ is not defined or mentioned at all.
 
-Section 3 mentions "safe primes" and how they are described in Section 2, but there is no definition of safe primes in Section 2. A short description is indeed in Section 3.
+Section 3 mentions "safe primes" and how they are described in Section 2, but there is no definition of safe primes in Section 2. A short description can found in Section 3.
 
 Also in Section 3, the authors mention in the Proof of Lemma 3.1, that $$n-1=(p-1)p^{r-1}s+(p-1)s,$$ which does not hold since $$p^rs-p^{r-1}s+ps-s \neq p^rs-1=n-1.$$ The Proof of Lemma 3.1 is incorrect, so any conclusion made based on this Lemma is false.
 
@@ -53,7 +53,7 @@ In the validation part, the authors mention that they tested on large amount of 
 
 
 \section{Discussion}
-Overall, the research is certainly very promising and shows an effectiove implementation, not based on previously published studies, but on wide range of uses of RSA alghoritms \cite{10.1145/359340.359342}.
+Overall, the research is certainly very promising and shows an effective implementation, not based on previously published studies, but on wide range of uses of RSA algorithms \cite{10.1145/359340.359342}.
 Therefore, the article interest resides mainly on the new questions addressed and the new methodology presented. The proposed new mathematical model seems efficient. Despite authors says that we should not use significant amount of keys, we suggest additional researches and reanalysis may shown that they are still valid and may be used.
 Finally, we found this research is interesting and encourage the authors to further development.
 
